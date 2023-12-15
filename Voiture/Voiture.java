@@ -7,7 +7,7 @@ public class Voiture {
     private String marque;
     private double vitesse;
     private boolean estDemaree = false;
-    private Moteur leMoteur = new Moteur("Peugeot", 8);
+    private Moteur leMoteur = new Moteur("Audi", 8);
     private Roue[] les4Roues = new Roue[4];
     private Roue roueDeSecours;
 
